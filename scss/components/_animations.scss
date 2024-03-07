@@ -1,0 +1,41 @@
+// Fade in
+@keyframes fadeIn{
+    // start
+    0%{
+        display:none;
+        opacity: 0;
+    }
+
+    1%{
+        // this right here give flexibility, you cannot straight from 0% to 100%, you need a slow change.
+        display:block;
+        opacity:0;
+    }
+
+    // end
+    100%{
+        display:block;
+        opacity:1;
+    }
+}
+
+
+// Another population animation for menu
+@keyframes fadeInUp{
+    0%{
+        display:none;
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    1%{
+        display:block;
+        opacity:0;
+    }
+    
+    100%{
+        display:block;
+        opacity:1;
+        transform: translateY(0);
+    }
+}
