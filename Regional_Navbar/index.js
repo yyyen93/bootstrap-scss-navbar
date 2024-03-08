@@ -16,10 +16,10 @@ app.use(express.static(path.join(__dirname, '/node_modules'))); // static 'node_
 
 
 app.get('/regional', (req,res)=>{
-    res.render('source/regional');
+    res.render('source/navbar');
 })
 
 
-app.listen(3333, ()=>{
-    console.log('Express serving port 3333');
+app.listen(5207, ()=>{
+    console.log('Express serving port 5207');
 })
